@@ -53,12 +53,16 @@ html {
 position:relative;
 height:100%;
 width:100%;
+width: auto !important;
+  overflow-x: hidden !important;
 }
 
 body{
 	position: absolute;
 	min-width:100%;
 	min-height:100%;
+	width: auto !important;
+  overflow-x: hidden !important;
 }
 
 #content{
